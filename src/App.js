@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import DropDown from './Components/DropDown';
+import DropDown1 from './Components/DropDown1';
+// import Semester1 from './Components/Semester1';
+// import Semester2 from './Components/Semester2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DropDown/>
+      <DropDown1/>
     </div>
   );
 }
